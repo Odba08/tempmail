@@ -1,0 +1,38 @@
+{
+  "name": "tempmail-backend",
+  "version": "1.0.0",
+  "description": "TempMail Catch-All Inbound Webhook and REST API",
+  "author": "",
+  "private": true,
+  "license": "UNLICENSED",
+  "scripts": {
+    "build": "nest build",
+    "format": "prettier --write \"src/**/*.ts\"",
+    "start": "nest start",
+    "start:dev": "nest start --watch",
+    "start:debug": "nest start --debug --watch",
+    "start:prod": "node dist/main"
+  },
+  "dependencies": {
+    "@nestjs/common": "^11.0.8",
+    "@nestjs/config": "^4.0.0",
+    "@nestjs/core": "^11.0.8",
+    "@nestjs/platform-express": "^11.0.8",
+    "@nestjs/typeorm": "^11.0.0",
+    "class-transformer": "^0.5.1",
+    "class-validator": "^0.14.4",
+    "mailparser": "^3.9.28",
+    "pg": "^8.13.1",
+    "reflect-metadata": "^0.2.2",
+    "rxjs": "^7.8.1",
+    "typeorm": "^0.3.20"
+  },
+  "devDependencies": {
+    "@nestjs/cli": "^11.0.2",
+    "@nestjs/schematics": "^11.0.0",
+    "@types/express": "^5.0.0",
+    "@types/mailparser": "^3.4.6",
+    "@types/node": "^22.13.1",
+    "typescript": "^5.7.3"
+  }
+}
