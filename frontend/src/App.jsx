@@ -96,7 +96,7 @@ export default function App() {
 
           {error && (
             <Alert severity="warning" sx={{ mb: 3, borderRadius: 3 }}>
-              {error} (Asegúrate de que el backend en NestJS esté encendido en http://localhost:3000)
+              {error} (Conectando con el servidor en la nube...)
             </Alert>
           )}
 
